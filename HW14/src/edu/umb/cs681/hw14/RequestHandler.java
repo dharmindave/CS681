@@ -38,17 +38,17 @@ public class RequestHandler implements Runnable {
             Path path = null;
             switch(randomFile){
                 case 0:
-                    path = java.nio.file.Paths.get("a.html");
+                    path = java.nio.file.Paths.get("test1.html");
                     break;
                 case 1:
-                    path = java.nio.file.Paths.get("b.html");
+                    path = java.nio.file.Paths.get("test2.html");
 
                     break;
                 case 2:
-                    path = java.nio.file.Paths.get("c.html");
+                    path = java.nio.file.Paths.get("test3.html");
                     break;
                 case 3:
-                    path = java.nio.file.Paths.get("d.html");
+                    path = java.nio.file.Paths.get("test4.html");
                     break;
 
 
